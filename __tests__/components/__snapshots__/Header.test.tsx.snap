@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header Component Should input a new task to do 1`] = `
+<div>
+  <div>
+    <h1>
+      TODO list
+    </h1>
+    <input
+      aria-label="Add your task"
+      placeholder="Add your task"
+      role="input"
+      type="text"
+      value=""
+    />
+    <button
+      role="add-task-button"
+    >
+      Done
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Header Component Should not set a new task to do when text input is empty 1`] = `
+<div>
+  <div>
+    <h1>
+      TODO list
+    </h1>
+    <input
+      aria-label="Add your task"
+      placeholder="Add your task"
+      role="input"
+      type="text"
+      value=""
+    />
+    <button
+      role="add-task-button"
+    >
+      Done
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Header Component Should set a new task to do in state manager 1`] = `
+<div>
+  <div>
+    <h1>
+      TODO list
+    </h1>
+    <input
+      aria-label="Add your task"
+      placeholder="Add your task"
+      role="input"
+      type="text"
+      value="task added"
+    />
+    <button
+      role="add-task-button"
+    >
+      Done
+    </button>
+  </div>
+</div>
+`;
