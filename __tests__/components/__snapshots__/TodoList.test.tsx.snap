@@ -2,18 +2,21 @@
 
 exports[`Item Component Should render a task list 1`] = `
 <div>
-  <div>
+  <div
+    class="TodoList__ContainerList-sc-1yllg3t-0 iujyHe"
+  >
     <div
-      class="sc-bczRLJ kqGEgo"
+      class="Item__RowItem-sc-sr0z1u-0 cBFQsO"
     >
       <button
+        class="Item__DoneButton-sc-sr0z1u-2 fyCNhz"
         role="complete-button"
       >
         <svg
-          class="icon icon-tabler icon-tabler-check undefined"
+          class="icon icon-tabler icon-tabler-check"
           fill="none"
           height="44"
-          stroke="#2c3e50"
+          stroke="#ffff"
           stroke-linecap="round"
           stroke-linejoin="round"
           stroke-width="1.5"
@@ -31,18 +34,27 @@ exports[`Item Component Should render a task list 1`] = `
           />
         </svg>
       </button>
-      <p>
-        some little task
-      </p>
-      <p />
+      <div
+        class="Item__ItemInfo-sc-sr0z1u-3 vcaer"
+      >
+        <p
+          class="Item__TaskName-sc-sr0z1u-4 iBAGpM"
+        >
+          some little task
+        </p>
+        <span
+          class="Item__StateLabel-sc-sr0z1u-5 kLzjTw"
+        />
+      </div>
       <button
+        class="Item__DeleteButton-sc-sr0z1u-1 iMwBie"
         role="delete-button"
       >
         <svg
-          class="icon icon-tabler icon-tabler-trash undefined"
+          class="icon icon-tabler icon-tabler-trash"
           fill="none"
           height="44"
-          stroke="#2c3e50"
+          stroke="#ffff"
           stroke-linecap="round"
           stroke-linejoin="round"
           stroke-width="1.5"
@@ -83,16 +95,17 @@ exports[`Item Component Should render a task list 1`] = `
       </button>
     </div>
     <div
-      class="sc-bczRLJ kqGEgo"
+      class="Item__RowItem-sc-sr0z1u-0 cBFQsO"
     >
       <button
+        class="Item__DoneButton-sc-sr0z1u-2 hmoFya"
         role="complete-button"
       >
         <svg
-          class="icon icon-tabler icon-tabler-check undefined"
+          class="icon icon-tabler icon-tabler-check"
           fill="none"
           height="44"
-          stroke="#2c3e50"
+          stroke="#ffff"
           stroke-linecap="round"
           stroke-linejoin="round"
           stroke-width="1.5"
@@ -110,20 +123,29 @@ exports[`Item Component Should render a task list 1`] = `
           />
         </svg>
       </button>
-      <p>
-        play football
-      </p>
-      <p>
-        done
-      </p>
+      <div
+        class="Item__ItemInfo-sc-sr0z1u-3 vcaer"
+      >
+        <p
+          class="Item__TaskName-sc-sr0z1u-4 fDLBAi"
+        >
+          play football
+        </p>
+        <span
+          class="Item__StateLabel-sc-sr0z1u-5 hthDTE"
+        >
+          done
+        </span>
+      </div>
       <button
+        class="Item__DeleteButton-sc-sr0z1u-1 iMwBie"
         role="delete-button"
       >
         <svg
-          class="icon icon-tabler icon-tabler-trash undefined"
+          class="icon icon-tabler icon-tabler-trash"
           fill="none"
           height="44"
-          stroke="#2c3e50"
+          stroke="#ffff"
           stroke-linecap="round"
           stroke-linejoin="round"
           stroke-width="1.5"
@@ -164,16 +186,17 @@ exports[`Item Component Should render a task list 1`] = `
       </button>
     </div>
     <div
-      class="sc-bczRLJ kqGEgo"
+      class="Item__RowItem-sc-sr0z1u-0 cBFQsO"
     >
       <button
+        class="Item__DoneButton-sc-sr0z1u-2 fyCNhz"
         role="complete-button"
       >
         <svg
-          class="icon icon-tabler icon-tabler-check undefined"
+          class="icon icon-tabler icon-tabler-check"
           fill="none"
           height="44"
-          stroke="#2c3e50"
+          stroke="#ffff"
           stroke-linecap="round"
           stroke-linejoin="round"
           stroke-width="1.5"
@@ -191,18 +214,27 @@ exports[`Item Component Should render a task list 1`] = `
           />
         </svg>
       </button>
-      <p>
-        Learn Rust
-      </p>
-      <p />
+      <div
+        class="Item__ItemInfo-sc-sr0z1u-3 vcaer"
+      >
+        <p
+          class="Item__TaskName-sc-sr0z1u-4 iBAGpM"
+        >
+          Learn Rust
+        </p>
+        <span
+          class="Item__StateLabel-sc-sr0z1u-5 kLzjTw"
+        />
+      </div>
       <button
+        class="Item__DeleteButton-sc-sr0z1u-1 iMwBie"
         role="delete-button"
       >
         <svg
-          class="icon icon-tabler icon-tabler-trash undefined"
+          class="icon icon-tabler icon-tabler-trash"
           fill="none"
           height="44"
-          stroke="#2c3e50"
+          stroke="#ffff"
           stroke-linecap="round"
           stroke-linejoin="round"
           stroke-width="1.5"
@@ -243,16 +275,17 @@ exports[`Item Component Should render a task list 1`] = `
       </button>
     </div>
     <div
-      class="sc-bczRLJ kqGEgo"
+      class="Item__RowItem-sc-sr0z1u-0 cBFQsO"
     >
       <button
+        class="Item__DoneButton-sc-sr0z1u-2 hmoFya"
         role="complete-button"
       >
         <svg
-          class="icon icon-tabler icon-tabler-check undefined"
+          class="icon icon-tabler icon-tabler-check"
           fill="none"
           height="44"
-          stroke="#2c3e50"
+          stroke="#ffff"
           stroke-linecap="round"
           stroke-linejoin="round"
           stroke-width="1.5"
@@ -270,20 +303,29 @@ exports[`Item Component Should render a task list 1`] = `
           />
         </svg>
       </button>
-      <p>
-        Cook dinner
-      </p>
-      <p>
-        done
-      </p>
+      <div
+        class="Item__ItemInfo-sc-sr0z1u-3 vcaer"
+      >
+        <p
+          class="Item__TaskName-sc-sr0z1u-4 fDLBAi"
+        >
+          Cook dinner
+        </p>
+        <span
+          class="Item__StateLabel-sc-sr0z1u-5 hthDTE"
+        >
+          done
+        </span>
+      </div>
       <button
+        class="Item__DeleteButton-sc-sr0z1u-1 iMwBie"
         role="delete-button"
       >
         <svg
-          class="icon icon-tabler icon-tabler-trash undefined"
+          class="icon icon-tabler icon-tabler-trash"
           fill="none"
           height="44"
-          stroke="#2c3e50"
+          stroke="#ffff"
           stroke-linecap="round"
           stroke-linejoin="round"
           stroke-width="1.5"
@@ -324,16 +366,17 @@ exports[`Item Component Should render a task list 1`] = `
       </button>
     </div>
     <div
-      class="sc-bczRLJ kqGEgo"
+      class="Item__RowItem-sc-sr0z1u-0 cBFQsO"
     >
       <button
+        class="Item__DoneButton-sc-sr0z1u-2 hmoFya"
         role="complete-button"
       >
         <svg
-          class="icon icon-tabler icon-tabler-check undefined"
+          class="icon icon-tabler icon-tabler-check"
           fill="none"
           height="44"
-          stroke="#2c3e50"
+          stroke="#ffff"
           stroke-linecap="round"
           stroke-linejoin="round"
           stroke-width="1.5"
@@ -351,20 +394,29 @@ exports[`Item Component Should render a task list 1`] = `
           />
         </svg>
       </button>
-      <p>
-        go to the supermarket
-      </p>
-      <p>
-        done
-      </p>
+      <div
+        class="Item__ItemInfo-sc-sr0z1u-3 vcaer"
+      >
+        <p
+          class="Item__TaskName-sc-sr0z1u-4 fDLBAi"
+        >
+          go to the supermarket
+        </p>
+        <span
+          class="Item__StateLabel-sc-sr0z1u-5 hthDTE"
+        >
+          done
+        </span>
+      </div>
       <button
+        class="Item__DeleteButton-sc-sr0z1u-1 iMwBie"
         role="delete-button"
       >
         <svg
-          class="icon icon-tabler icon-tabler-trash undefined"
+          class="icon icon-tabler icon-tabler-trash"
           fill="none"
           height="44"
-          stroke="#2c3e50"
+          stroke="#ffff"
           stroke-linecap="round"
           stroke-linejoin="round"
           stroke-width="1.5"
@@ -405,16 +457,17 @@ exports[`Item Component Should render a task list 1`] = `
       </button>
     </div>
     <div
-      class="sc-bczRLJ kqGEgo"
+      class="Item__RowItem-sc-sr0z1u-0 cBFQsO"
     >
       <button
+        class="Item__DoneButton-sc-sr0z1u-2 hmoFya"
         role="complete-button"
       >
         <svg
-          class="icon icon-tabler icon-tabler-check undefined"
+          class="icon icon-tabler icon-tabler-check"
           fill="none"
           height="44"
-          stroke="#2c3e50"
+          stroke="#ffff"
           stroke-linecap="round"
           stroke-linejoin="round"
           stroke-width="1.5"
@@ -432,20 +485,29 @@ exports[`Item Component Should render a task list 1`] = `
           />
         </svg>
       </button>
-      <p>
-        watch series
-      </p>
-      <p>
-        done
-      </p>
+      <div
+        class="Item__ItemInfo-sc-sr0z1u-3 vcaer"
+      >
+        <p
+          class="Item__TaskName-sc-sr0z1u-4 fDLBAi"
+        >
+          watch series
+        </p>
+        <span
+          class="Item__StateLabel-sc-sr0z1u-5 hthDTE"
+        >
+          done
+        </span>
+      </div>
       <button
+        class="Item__DeleteButton-sc-sr0z1u-1 iMwBie"
         role="delete-button"
       >
         <svg
-          class="icon icon-tabler icon-tabler-trash undefined"
+          class="icon icon-tabler icon-tabler-trash"
           fill="none"
           height="44"
-          stroke="#2c3e50"
+          stroke="#ffff"
           stroke-linecap="round"
           stroke-linejoin="round"
           stroke-width="1.5"
