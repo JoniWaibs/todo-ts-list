@@ -1,4 +1,11 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## This is TODO demo
+
+This is simple TODO list with steroids, and was build with follow technologies:
+- Next js
+- Context API & Hooks
+- Typescript
+- Styled Components
+- Jest & React Testing Library
 
 ## Getting Started
 
@@ -12,23 +19,29 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+If you want to know more about Next js, you can reaad documentation [here](https://nextjs.org/)
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Screenshots
+Destop devices
 
-## Learn More
+<img width="1440" alt="Screen Shot 2022-05-08 at 8 36 32 PM" src="https://user-images.githubusercontent.com/71559187/167320971-8805954b-a7a1-45d2-b982-ccc34b5970e1.png">
 
-To learn more about Next.js, take a look at the following resources:
+Mobile devices
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<img width="368" alt="Screen Shot 2022-05-08 at 8 38 09 PM" src="https://user-images.githubusercontent.com/71559187/167320982-b0867ef7-1111-4874-a5a0-bf7577dcf5d5.png">
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## Testing Coverage (100%)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+If you want, you can test application:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```bash
+npm run test
+# or
+yarn test
+```
+
+<img width="873" alt="Screen Shot 2022-05-08 at 8 55 26 PM" src="https://user-images.githubusercontent.com/71559187/167321016-08599e13-0d82-4fda-a4d9-18f17fa3ef56.png">
+
+![Screen Shot 2022-05-08 at 8 56 45 PM](https://user-images.githubusercontent.com/71559187/167321116-4ad8fdb0-4fb2-45fb-8c23-0cb6b7eaac7a.png)
